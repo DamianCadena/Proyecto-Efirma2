@@ -1,0 +1,31 @@
+@charset "utf-8";
+
+h1.monos {font-family: monospace;
+}
+
+h2.monos {font-family: monospace;
+	
+}
+
+label.monos{font-family: monospace;
+			font-size: large;
+	
+}
+
+#contenedor{
+	width:1200px;
+	position:relative;
+	margin:auto;
+}
+
+#zonaformulario{
+	float:left;
+	padding:30px;
+	border:2px solid #1565E1;
+}
+
+.directorio{
+	color:#0000FF;
+	font-weight:bold;
+	cursor:pointer;	
+}

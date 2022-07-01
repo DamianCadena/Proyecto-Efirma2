@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Validacion</title>
+<link href="css/estilos.css" rel="stylesheet"  type="text/css">
+</head>
+
+<body>
+	<h1 class="monos" style="text-align:left">Validacion CERKEY</h1>
+	<form action="/validacion" method="GET">
+		<div id="contenedor">
+			<section id="zonaformulario">
+		 	<h2 class="monos" style="text-align:left">Validacion</h2>
+			<div>
+   		 		<label class="monos" for="validacion">Selecciona el archivo (.CER)</label>
+   		 		<input type="file"  placeholder=".cer" class="custom-file-input" name="cer"/>
+  			</div>
+			<div>
+   		 		<label class="monos" for="validacion">Selecciona el archivo (.KEY)</label>
+   		 		<input type="file" placeholder=".key" class="custom-file-input" name="key"/>
+  			</div>
+			<div>
+				<label class="monos" class="large" for="validacion">Ingresa tu contreseña</label>
+				<input type="password"  placeholder="Contraseña" name="pasword"/>	
+			</div>
+				<button>Validar</button> 
+			</section>
+		</div>
+	</form> 
+		 
+</body>
+</html>
